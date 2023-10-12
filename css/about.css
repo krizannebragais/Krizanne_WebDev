@@ -322,3 +322,189 @@ footer i {
         font-size: 30px;
     }
 }
+
+.container3 {
+    max-width: 1000px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    width: 95%;
+    border-radius: 40px;
+    margin: auto;
+    background-color: #3e2642;
+    color: white;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.contain {
+    padding: 50px 50px;
+    position: relative;
+    width: 50%;
+}
+
+.text-box {
+    padding: 20px 30px;
+    background: #c088b4;
+    position: relative;
+    border-radius: 40px;
+}
+
+.left-contain {
+    left: 0;
+}
+
+.right-contain {
+    left: 50%;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: white;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: 1;
+}
+
+.text-box img {
+    display: flex;
+}
+
+.school-logo img {
+    border-radius: 50%;
+    margin: auto;
+    width: 250px;
+}
+
+.left-contain-arrow {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 45px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid rgb(207, 192, 201);
+    right: -15px;
+}
+
+.right-contain-arrow {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 45px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid rgb(207, 192, 201);
+    left: -15px;
+}
+
+.contain #small-logo-left {
+    position: absolute;
+    width: 60px;
+    border-radius: 50%;
+    left: 95%;
+    top: 80px;
+    z-index: 10;
+}
+
+.contain #small-logo-right {
+    position: absolute;
+    width: 60px;
+    border-radius: 50%;
+    right: 95%;
+    top: 80px;
+    z-index: 10;
+}
+
+@media (max-width: 640px) {
+    .text-box h2 {
+        font-size: 15px;
+    }
+
+    .text-box h3 {
+        font-size: 12px;
+    }
+
+    .contain {
+        padding: 20px 40px;
+    }
+
+    .contain #small-logo-left {
+        position: absolute;
+        width: 40px;
+        border-radius: 50%;
+        left: 91%;
+        top: 110px;
+        z-index: 10;
+    }
+
+    .contain #small-logo-right {
+        position: absolute;
+        width: 40px;
+        border-radius: 50%;
+        right: 91%;
+        top: 110px;
+        z-index: 10;
+    }
+
+    .contain {
+        padding: 10px;
+    }
+
+    .text-box {
+        padding: 15px;
+    }
+
+    .left-contain-arrow {
+        display: none;
+    }
+
+    .right-contain-arrow {
+        display: none;
+    }
+
+    .school-logo img {
+        max-width: 150px;
+    }
+}
+.skills-container {
+    margin: auto;
+    gap: 20px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-item {
+    background-color: #3e2642;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.grid-item i {
+    opacity: 70%;
+    color: #f6f6f6;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.grid-item h1,
+p {
+    color: #f6f6f6;
+}
+
+.grid-item h1 {
+    margin-bottom: 10px;
+}
+
+.grid-item p {
+    opacity: 70%;
+}

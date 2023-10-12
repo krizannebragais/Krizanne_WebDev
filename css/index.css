@@ -19,10 +19,6 @@ ol {
 
 /*-- Navbar --*/
 
-/* section{
-    height: 100vh;
-} */
-
 header {
     position: relative;
     height: 80px;
@@ -972,22 +968,6 @@ footer i {
     font-size: inherit;
     max-height: 999em;
 }
-
-/* #toggle-content-2:checked ~ .content-text .read-more-target {
-    opacity: 1;
-    font-size: inherit;
-    max-height: 999em;
-} */
-/* #toggle-content-3:checked ~ .content-text .read-more-target {
-    opacity: 1;
-    font-size: inherit;
-    max-height: 999em;
-}
-#toggle-content-4:checked ~ .content-text .read-more-target {
-    opacity: 1;
-    font-size: inherit;
-    max-height: 999em;
-} */
 
 .ellipsis::before {
     content: "...";
